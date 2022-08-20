@@ -1,8 +1,8 @@
 # define add function
 def add(number_one, number_two):
-    number_three = number_one + number_two 
+    sum = number_one + number_two 
     # use the return keyword 
-    return number_three
+    return sum
 
 # define two integer variables
 number_one = 1
