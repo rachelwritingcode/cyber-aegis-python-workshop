@@ -23,7 +23,7 @@ These are some pre-requisite requirements before we dive into Workshops 3 & 4. T
 ![](tutorial_images/create_a_server.png)
 
 
-- [ ] Select the server option "For me and my friends".
+- [ ] Select the server option "For me and my friends".\
 ![](tutorial_images/for_friends_server.png)
 
 
