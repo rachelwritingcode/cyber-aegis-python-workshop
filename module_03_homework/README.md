@@ -77,7 +77,7 @@ async def ping(ctx: lightbulb.Context) -> None:
     await ctx.respond("Pong!")
 
 
-# Another example of a slash command function called echo
+# Another example of a slash command function called echo without comments
 @bot.command()
 @lightbulb.option("text", "Text to repeat")
 @lightbulb.command("echo", "Repeats the user's input")
@@ -86,9 +86,7 @@ async def echo(ctx: lightbulb.Context) -> None:
     await ctx.respond(ctx.options.text)
 
 
-# Run the bot
-# Note that this is blocking meaning no code after this line will run
-# until the bot is shut off
+# Run the bot until the bot is shut off
 bot.run()
 ```
 
