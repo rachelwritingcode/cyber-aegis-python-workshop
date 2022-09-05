@@ -8,7 +8,7 @@ These are some pre-requisite requirements before we dive into Workshops 3 & 4. T
 - [ ] Create a Discord Server
 - [ ] Create a Discord Bot and Set Permissions
 - [ ] Generate Discord Bot API Key
-- [ ] Store your API Key and APPLICATION ID in a .env file
+- [ ] Store your Discord Bot API Key in a .env file
 
 ---
 ### How to Create a Discord Server 
@@ -73,7 +73,7 @@ https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications
 
 - Copy the token text, we are going store this token safely in a new file called .env.
 
-- Create a new file called .env, create a variable called DISCORD_TOKEN and paste the token into the file. 
+- Wherever you plan to store your workshop files, create a new file called .env, create a variable called DISCORD_TOKEN and paste the token into the file. 
 `DISCORD_TOKEN=your_token_text`
 
 - Go back to the discord developer portal Bot menu and go to Privileged Gateway section of the bot settings page. 
