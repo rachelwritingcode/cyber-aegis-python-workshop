@@ -104,10 +104,6 @@ https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications
 ![](add_bot/get_client_id.png)
 
 
-- Retrieve the APPLICATION ID and store that in the .env file you created in the earlier tutorial. In the .env file, create a variable called CLIENT_ID and assign it to your APPLICATION ID.
-`CLIENT_ID=your_application_id`
-
-
 - Navigate to the left side of the General Information and select the OAuth2. Click on the URL Generator setting.
 ![](add_bot/oauth_menu.png)
 

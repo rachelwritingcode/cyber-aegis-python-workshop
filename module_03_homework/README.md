@@ -6,39 +6,77 @@ These are some pre-requisite requirements before we dive into Workshops 3 & 4. T
 ### Homework Checklist
 
 - [ ] Install Python-dotenv Package  
-- [ ] Read brief introduction about Hikari 
-- [ ] Install Hikari Package
-- [ ] Read brief introduction about Lightbulb Package
-- [ ] Install Lightbulb Package
-- [ ] Review sample code using Hikari and Lightbulb Package
+- [ ] Install Hikari-Lightbulb Package
+- [ ] Review sample code from README on Hikari-Lightbulb Package
+
+
 
 ---
 ### Install Python-dotenv Package
 
+Python-dotenv reads key-value pairs from a .env file and can set them as environment variables. It helps in the development of applications following the 12-factor principles.
+
+```
+pip install python-dotenv
+```
+https://github.com/theskumar/python-dotenv
 
 ---
 
-### Introduction to Hikari and Lightbulb Package
-
+### Introduction to Hikari-Lightbulb Package
 
 #### Hikari Lightbulb Package
 
-    An opinionated, static typed Discord microframework for Python3 and asyncio that supports Discord's V8 REST API and Gateway.
+Hiakri-Lightbulb is designed to be an easy to use command handler library that integrates with the Discord API wrapper library for Python, Hikari.
 
-    Built on good intentions and the hope that it will be extendable and reusable, rather than an obstacle for future development.
+This library aims to make it simple for you to make your own Discord bots and provide all the utilities and functions you need to help make this job easier.
 
-    Python 3.8, 3.9 and 3.10 are currently supported.
-
-
-https://pypi.org/project/hikari/
-
-#### Lightbulb Package
-
-    Lightbulb is designed to be an easy to use command handler library that integrates with the Discord API wrapper library for Python, Hikari.
-
-    This library aims to make it simple for you to make your own Discord bots and provide all the utilities and functions you need to help make this job easier.
+```
+pip install hikari-lightbulb
+```
 
 https://pypi.org/project/hikari-lightbulb/
 
 ---
-### Sample Code for Hikari and Lightbulb Package
+### Review Sample Code for Hikari-Lightbulb Package from the README
+
+
+Read this sample piece of code from the Hikari-Lightbulb Github Repo. Try to familiarize yourself with the package. Don't worry if you don't understand all of the code now, we will walk through it together on workshop day.
+
+
+```
+
+import lightbulb
+
+# Authenticate your bot with the token
+bot = lightbulb.BotApp(prefix="!", token="YOUR_TOKEN")
+
+
+# Register the command to the bot
+@bot.command()
+# Use the command decorator to convert the function into a command
+@lightbulb.command("ping", "Checks that the bot is alive")
+# Define the command type(s) that this command implements, this is a slash command
+@lightbulb.implements(lightbulb.SlashCommand)
+# Define a function called ping
+async def ping(ctx: lightbulb.Context) -> None:
+    # Send a message to the channel the command was used in
+    await ctx.respond("Pong!")
+
+
+# Another example of a slash command function called echo
+@bot.command()
+@lightbulb.option("text", "Text to repeat")
+@lightbulb.command("echo", "Repeats the user's input")
+@lightbulb.implements(lightbulb.SlashCommand)
+async def echo(ctx: lightbulb.Context) -> None:
+    await ctx.respond(ctx.options.text)
+
+
+# Run the bot
+# Note that this is blocking meaning no code after this line will run
+# until the bot is shut off
+bot.run()
+```
+
+Reference: https://github.com/tandemdude/hikari-lightbulb/blob/development/examples/basic_slash_command_bot_example.py
