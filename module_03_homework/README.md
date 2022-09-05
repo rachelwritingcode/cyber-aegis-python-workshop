@@ -5,13 +5,25 @@ These are some pre-requisite requirements before we dive into Workshops 3 & 4. T
 ---
 ### Homework Checklist
 
+- [ ] Create a .gitignore file 
 - [ ] Install Python-dotenv Package  
 - [ ] Install Hikari-Lightbulb Package
-- [ ] Review sample code from README on Hikari-Lightbulb Package
-
+- [ ] Review sample code from Hikari-Lightbulb Package
 
 
 ---
+### Create a .gitignore file
+
+- Wherever you are planning to store workshop files, create a file called .gitignore.
+- Open this file and type in .env.
+- You have now created a file which tells git to ignore the .env file, preventing you from accidentally adding sensitive information into a Github repo.
+
+```
+.env
+```
+
+---
+
 ### Install Python-dotenv Package
 
 Python-dotenv reads key-value pairs from a .env file and can set them as environment variables. It helps in the development of applications following the 12-factor principles.
@@ -38,7 +50,7 @@ pip install hikari-lightbulb
 https://pypi.org/project/hikari-lightbulb/
 
 ---
-### Review Sample Code for Hikari-Lightbulb Package from the README
+### Review Sample Code from Hikari-Lightbulb Package
 
 
 Read this sample piece of code from the Hikari-Lightbulb Github Repo. Try to familiarize yourself with the package. Don't worry if you don't understand all of the code now, we will walk through it together on workshop day.
