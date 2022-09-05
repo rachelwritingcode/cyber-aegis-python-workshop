@@ -5,6 +5,7 @@ These are some pre-requisite requirements before we dive into Workshops 3 & 4. T
 ---
 ### Homework Checklist
 
+- [ ] If you haven't already then makes sure you [setup Discord Server and Discord Bot API Key](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_02_homework) 
 - [ ] Create a .gitignore file 
 - [ ] Install Python-dotenv Package  
 - [ ] Install Hikari-Lightbulb Package
