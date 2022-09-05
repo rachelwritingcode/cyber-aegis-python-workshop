@@ -58,33 +58,16 @@ Read this sample piece of code from the Hikari-Lightbulb Github Repo. Try to fam
 
 
 ```
-
 import lightbulb
 
-# Authenticate your bot with the token
+# Authenticate your bot with your token, ignore the prefix 
 bot = lightbulb.BotApp(prefix="!", token="YOUR_TOKEN")
 
-
-# Register the command to the bot
-@bot.command()
-# Use the command decorator to convert the function into a command
-@lightbulb.command("ping", "Checks that the bot is alive")
-# Define the command type(s) that this command implements, this is a slash command
-@lightbulb.implements(lightbulb.SlashCommand)
-# Define a function called ping
-async def ping(ctx: lightbulb.Context) -> None:
-    # Send a message to the channel the command was used in
-    await ctx.respond("Pong!")
-
-
-# Another example of a slash command function called echo without comments
-@bot.command()
-@lightbulb.option("text", "Text to repeat")
-@lightbulb.command("echo", "Repeats the user's input")
-@lightbulb.implements(lightbulb.SlashCommand)
-async def echo(ctx: lightbulb.Context) -> None:
-    await ctx.respond(ctx.options.text)
-
+@bot.command() # Register the command to the bot
+@lightbulb.command("ping", "Checks that the bot is active") # We give the command a name and description
+@lightbulb.implements(lightbulb.SlashCommand) # Define it is a slash command 
+async def ping(ctx: lightbulb.Context) -> None: # Define the function and name is ping
+    await ctx.respond("Pong!") # Send a message to the discord channel
 
 # Run the bot until the bot is shut off
 bot.run()
