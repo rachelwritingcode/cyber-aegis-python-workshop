@@ -22,3 +22,6 @@
 ## Workshop 4 Exercise Files
 - [Workshop 4 Exercise Files](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_04)
 
+## Workhop Slides
+
+TBA, slides coming soon!
