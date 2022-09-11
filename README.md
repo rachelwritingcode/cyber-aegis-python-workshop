@@ -5,6 +5,7 @@
 - How to write a function
 - What is a Python module
 - What is a Python package
+- What is a main function
 - Some best practices
 - How to build a discord bot using the hikari-lightbulb python package
 - A sample project to add to your portfolio
