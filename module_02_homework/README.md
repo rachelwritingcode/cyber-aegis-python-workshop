@@ -34,9 +34,6 @@ These are some pre-requisite requirements before we dive into Workshops 3 & 4. T
 ![](create_server/completed_creation.png)
 
 
-
-- Enter the flag 
-`flag{created_a_server}`
 ---
 
 ### How to Create a Discord Bot
@@ -82,9 +79,6 @@ https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications
 
 - Scroll down to the Bot Permissions menu and select Admin permissions. Click the green Save Changes to update the settings.
 ![](create_bot/admin_bot.png)
-
-
-- Enter the flag `flag{bot_complete}`
 
 
 ---
@@ -136,4 +130,3 @@ https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications
 - Navigate to the discord server you created and you should see activity from your bot in the general channel.
 ![](add_bot/welcome_to_server.png)
 
-- Enter the flag `flag{bot_is_live}`
