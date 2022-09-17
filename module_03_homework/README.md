@@ -16,7 +16,7 @@ These are some pre-requisite requirements before we dive into Workshops 3 & 4. T
 ### Create a .gitignore file
 
 - Wherever you are planning to store workshop files, create a file called .gitignore.
-- Open this file and type in .env.
+- Open this file and type in .env
 - You have now created a file which tells git to ignore the .env file, preventing you from accidentally adding sensitive information into a Github repo.
 
 ```
