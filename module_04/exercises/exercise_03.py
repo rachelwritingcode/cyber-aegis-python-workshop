@@ -1,15 +1,9 @@
-from dotenv import load_dotenv
-import os
-import lightbulb
+import nmap3
 
-load_dotenv()
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-bot = lightbulb.BotApp(prefix="!", token=DISCORD_TOKEN)
+nmap = nmap3.Nmap()
+results = nmap.scan_top_ports("127.0.0.1")
+print(results)
 
-@bot.command()
-@lightbulb.command("hello", "Greets users") 
-@lightbulb.implements(lightbulb.SlashCommand)
-async def hello(ctx: lightbulb.Context) -> None: 
-    await ctx.respond("H3110 H@ck3r!🔥💻🔥") 
-
-bot.run()
+nmap_scan = nmap3.NmapScanTechniques()
+ping_results = nmap_scan.nmap_ping_scan("https://www.github.com")
+print(ping_results)
