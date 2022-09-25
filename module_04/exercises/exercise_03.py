@@ -1,9 +1,10 @@
-import nmap3
+import os
 
-nmap = nmap3.Nmap()
-results = nmap.scan_top_ports("127.0.0.1")
-print(results)
+#Run this file in the same location where you have downloaded the sherlock folder.
+username = "username"
+sherlock_location = "location of sherlock"
+sherlock_results= "./sherlock_result.txt"
 
-nmap_scan = nmap3.NmapScanTechniques()
-ping_results = nmap_scan.nmap_ping_scan("https://www.github.com")
-print(ping_results)
+os.system('python3 '+sherlock_location+' '+username+' > '+sherlock_results)
+ 
+
