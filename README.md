@@ -8,8 +8,13 @@
 - A small taste of CTF style challenges
 - Popular Python Cyber Security Tools
 
-## Workshop Slides
+## Workshop # 3 Exercises 
+![Click Here](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_03/exercises)
 
+## Workshop # 4 Exercises 
+![Click Here](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_04/exercises)
+
+## Workshop #3 & #4 Slides
 https://tinyurl.com/cyber-aegis-python
 
 ## License
