@@ -8,7 +8,7 @@
 - A small taste of CTF style challenges
 - Popular Python Cyber Security Tools
 
-## Workhop Slides
+## Workshop Slides
 
 https://tinyurl.com/cyber-aegis-python
 
