@@ -9,10 +9,10 @@
 - Popular Python Cyber Security Tools
 
 ## Workshop # 3 Exercises 
-![Click Here](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_03/exercises)
+![Click Here For Exercises](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_03/exercises)
 
 ## Workshop # 4 Exercises 
-![Click Here](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_04/exercises)
+![Click Here For Exercises](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_04/exercises)
 
 ## Workshop #3 & #4 Slides
 https://tinyurl.com/cyber-aegis-python
