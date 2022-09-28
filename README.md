@@ -20,4 +20,4 @@ Massive thank yous to the Cyber Aegis Team and Volunteers who make this possible
 
 ![](https://media.giphy.com/media/BXVRf5GyMlElO/giphy.gif)
 
-Gif credits: 
+Gif credits: https://hoppip.tumblr.com/post/42292344182
