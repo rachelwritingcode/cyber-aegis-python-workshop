@@ -10,7 +10,7 @@
 
 ## Prequisites
 
-- Run `python3 -m pip install -r requirements.txt` to install all the package dependencies for Workshop 3 and 4.
+- Run `python3 -m pip install -r requirements.txt` or `python -m pip install requirements.txt` to install all the package dependencies for Workshop 3 and 4.
 - Have administrative privileges on your machine to use nmap in Workshop 4. 
 
 ## Workshop # 3 Exercises 
