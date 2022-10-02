@@ -8,6 +8,11 @@
 - A small taste of CTF style challenges
 - Popular Python Cyber Security Tools
 
+## Prequisites
+
+- Run `python3 -m pip install -r requirements.txt` to install all the package dependencies for Workshop 3 and 4.
+- Have administrative privileges on your machine to use nmap in Workshop 4. 
+
 ## Workshop # 3 Exercises 
 ![Click Here For Exercises](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_03/exercises)
 
