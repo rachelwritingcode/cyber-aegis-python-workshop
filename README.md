@@ -8,7 +8,7 @@
 - A small taste of CTF style challenges
 - Popular Python Cyber Security Tools
 
-## Pre-requisites
+## Prerequisites
 
 - After installing Python, run `python3 -m pip install -r requirements.txt` or `python -m pip install requirements.txt` to install all the package dependencies for Workshop 3 and 4.
 - Have administrative privileges on your machine to use nmap in Workshop 4. If you are on osx/linux you will be running a python script using sudo and if you are on a Windows machine you will be running the python file with “run as administrator”.
