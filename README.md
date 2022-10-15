@@ -14,7 +14,7 @@
 - Have administrative privileges on your machine to use nmap in Workshop 4. If you are on osx/linux you will be running a python script using sudo and if you are on a Windows machine you will be running the python file with “run as administrator”.
   - For Windows users, Option 1 in this article explains how to run as administrator https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/ 
 - Download and install nmap for your operating system: https://nmap.org/download.html
-
+- Download and extract [Sherlock](https://github.com/sherlock-project/sherlock), place the extracted folder in your Documents folder. 
 
 ## Workshop # 3 Exercises 
 ![Click Here For Exercises](https://github.com/rachelwritingcode/cyber-aegis-python-workshop/tree/main/module_03/exercises)
